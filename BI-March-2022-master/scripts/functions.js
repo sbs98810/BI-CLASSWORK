@@ -1,17 +1,17 @@
 /*function foo1(){
-    let a=20
-    console.log("inside foo1 : a is ",a)
-    foo2(a)
-    console.log("end of foo1")
+    let a=20                //here let a=20
+    console.log("inside foo1 : a is ",a)        //now (1)foo1 a is 20
+    foo2(a) //here we call function foo2
+    console.log("end of foo1")//(3)here end of foo1
 
 }
-function foo2(b){
-    console.log("inside foo2 : b is",b)
-    console.log("end of foo2")
+function foo2(b){//function foo2
+    console.log("inside foo2 : b is",b)//(2)now foo2 is get print 
+    console.log("end of foo2")//(4)now end foo2
 
 }
 foo1()
-console.log(a)*/
+//console.log(a)*/          //extra function
 //option 1 : 3 5 9 10
 //option 2 : 9 10 3 5
 //option 3: 3 9 10 5
