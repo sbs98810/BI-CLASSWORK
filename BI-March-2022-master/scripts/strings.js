@@ -61,7 +61,7 @@ let str="hello,Javascript,Javascript"
 console.log(str.split(","))
 let str1="hello Javascript Javascript"
 console.log(str1.split(" ").length)
-console.log(str1.split("").length)*/
+console.log(str1.split("").length)
 
 console.log(5 > 4)
 console.log("apple" > "pineapple")
@@ -76,6 +76,12 @@ console.log(null === +"\n0\n")
 
 
 
-// js to captitalize only the first character
+// js to captitalize only the first character*/
 
 
+let age=25
+if(age>18)
+{console.log"q"}
+else if
+{console.log"dq"}
+else{console.log(pp)}
