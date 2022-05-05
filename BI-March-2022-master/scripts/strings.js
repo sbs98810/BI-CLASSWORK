@@ -76,7 +76,7 @@ console.log(null === +"\n0\n")
 
 
 
-// js to captitalize only the first character*/
+// js to captitalize only the first character
 
 
 let age=25
@@ -84,4 +84,4 @@ if(age>18)
 {console.log"q"}
 else if
 {console.log"dq"}
-else{console.log(pp)}
+else{console.log(pp)}*/

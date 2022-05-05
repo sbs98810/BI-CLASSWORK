@@ -1,18 +1,19 @@
 
 
-/*let users=["john","peter","henry"]
+let users=["john","peter","henry"]
 users[1]="mary"
 console.log(users[1])
-for(let i=0;i<users.length;i++){
+
+/*for(let i=0;i<users.length;i++){
 console.log(`${users[i]} at ${i} `)//users[0] [1] [2]
 //john at 0 index
 //peter at 1 index
 //henry at 2 index
 }
 
-console.log(users.toString()) -> sepeartor is a comma
+/*console.log(users.toString()) -> sepeartor is a comma*/
 
-console.log(users.join(" "))// custom seperator
+/*console.log(users.join(" "))// custom seperator
 let users=["john","peter","henry"]
 users.push("mary")
 users.push("justin","xyz")
@@ -90,7 +91,7 @@ let users=["john","peter","henry","mary","justin","emelia","henry"]
 let res=users.findIndex(
     (item)=>item==="henry"
 )
-console.log(res)*/
+console.log(res)*
 let users=["john","peter","henry","mary","justin","emelia","henry"]
 let res=users.findIndex(
     (item)=>item==="henry"
@@ -99,11 +100,4 @@ console.log(res)
 
 console.log(users.indexOf("henry"))//number//number
 console.log(users.lastIndexOf("henry"))
-console.log(users.includes("shrthi"))//boolean
-
-
-
-
-
-
-
+console.log(users.includes("shrthi"))//boolean*/
