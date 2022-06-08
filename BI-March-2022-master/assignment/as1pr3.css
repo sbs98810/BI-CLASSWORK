@@ -19,13 +19,11 @@
     margin: auto;
     width: 65%;
     padding: 10px;
-}
-.checked{
-    color: orange;
+    color:grey;
 }
 .price{
     margin: auto;
-    width: 65%;
+    width: 66%;
     padding: 10px;
 }
 span.a {
@@ -37,18 +35,94 @@ span.a {
   }
 span.b{
     text-decoration:line-through;
+    color: red;
 }
-.sample{
-    display: block;
+span.c{
+    color: green;
+}
+.description{
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color{
+    display: inherit;
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+}
+.co1{
+    display: inline;
+}
+.co2{
+    font-weight: bold;
+}
+.co3{
+    margin: auto;
+    padding: 100px;
+}
+.Availability{
+    display: inherit;
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+}
+.av1{
+    display: inline;
+}
+.co4{
+    margin: auto;
+    padding: 65px;
+}
+.size{
+    display: inherit;
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+}
+.sz1{
+    display: inline;
+}
+.co5{
+    font-weight: bold;
+}
+.co6{
+    margin: auto;
+    padding: 60px;
+}
+.Quantity{
+    display: inherit;
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+}
+.q1{
+    display:inline;
+    padding: 80px;
+}
+.button{
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+}
+.b1{
+    color: white;
+    background-color: rgb(34, 105, 198);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.b2{
+    cursor: pointer;
 }
 .image{
     border: solid  rgb(179, 179, 235);
     width: 200px;
-    height: 300px;
+    height: 400px;
     object-fit:fill;
     object-position: 15% 100%;
     position: absolute;
     top: 80px;
-    
-    
-}
+    }
+
